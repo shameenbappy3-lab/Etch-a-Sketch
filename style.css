@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    width: 256px;
+    height: 256px;
+    flex-wrap: wrap;
+}
+
 .square{
     border: 1px solid black;
     width: 16px;
     height: 16px;
+}
+
+.square:hover{
+    background-color: black;
 }
