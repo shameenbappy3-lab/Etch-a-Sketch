@@ -1,22 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 .container{
     display: flex;
-    width: 256px;
-    height: 256px;
     flex-wrap: wrap;
+    width: 956px;
 }
 
 .square{
+    width: calc(956px / 16);
     border: 1px solid black;
-    width: 16px;
     height: 16px;
 }
 
-.square:hover{
-    background-color: black;
+.button{
+    margin-bottom: 10px;
 }
